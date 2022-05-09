@@ -11,9 +11,8 @@ export class FooterComponent implements OnInit {
   faLocationArrow = faLocationArrow;
   faMailBulk = faMailBulk;
   faMobilePhone=faMobilePhone;
-
   currentYear:number = new Date().getFullYear();
-
+  
   constructor() { }
 
   ngOnInit(): void {

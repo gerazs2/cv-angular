@@ -7,13 +7,15 @@ import { NavbarComponent } from './Componets/navbar/navbar.component';
 import { HomeComponent } from './Componets/home/home.component';
 import { FooterComponent } from './Componets/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { CurriculumComponent } from './Componets/curriculum/curriculum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CurriculumComponent
   ],
   imports: [
     BrowserModule,
