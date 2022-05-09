@@ -26,3 +26,5 @@ import { CurriculumComponent } from './Componets/curriculum/curriculum.component
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
