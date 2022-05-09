@@ -8,6 +8,7 @@ import { HomeComponent } from './Componets/home/home.component';
 import { FooterComponent } from './Componets/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CurriculumComponent } from './Componets/curriculum/curriculum.component';
+import { ProjectsService } from './Services/projects.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,7 @@ import { CurriculumComponent } from './Componets/curriculum/curriculum.component
     AppRoutingModule,
     FontAwesomeModule
   ],
-  providers: [],
+  providers: [ProjectsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
